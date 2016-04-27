@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tutu.googletraining.OtherActivity">
+
+    <com.tutu.googletraining.TCheakGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.tutu.googletraining.TCheakLayout
+            android:id="@+id/tc1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </com.tutu.googletraining.TCheakLayout>
+
+        <com.tutu.googletraining.TCheakLayout
+            android:id="@+id/tc2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </com.tutu.googletraining.TCheakLayout>
+
+        <com.tutu.googletraining.TCheakLayout
+            android:id="@+id/tc3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </com.tutu.googletraining.TCheakLayout>
+
+        <com.tutu.googletraining.TCheakLayout
+            android:id="@+id/tc4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </com.tutu.googletraining.TCheakLayout>
+
+
+    </com.tutu.googletraining.TCheakGroup>
+
+</RelativeLayout>
